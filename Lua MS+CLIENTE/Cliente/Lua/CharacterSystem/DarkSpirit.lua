@@ -1,0 +1,223 @@
+OpenFolder("Definitions")
+
+DARK_SPIRIT_INFO = {
+    { ItemIndex = GET_ITEM(13, 232), ModelName = 'UncleanIcon',   ObjectName = 'Unclean' },
+    { ItemIndex = GET_ITEM(13, 238), ModelName = 'iconsaphure',   ObjectName = 'EagleSaphure' },
+	{ ItemIndex = GET_ITEM(13, 244), ModelName = 'iconzeus',      ObjectName = 'EagleZeus' },
+	{ ItemIndex = GET_ITEM(13, 254), ModelName = 'iconzeus',      ObjectName = 'EagleFrost' },
+	{ ItemIndex = GET_ITEM(13, 256), ModelName = 'EagleIco',      ObjectName = 'Eakerdefo' },
+	{ ItemIndex = GET_ITEM(13, 267), ModelName = 'EagleIcoHorus', ObjectName = 'EagleHorus202' },
+	{ ItemIndex = GET_ITEM(13, 274), ModelName = 'IconRedFenril', ObjectName = 'ealgeFenrirRed' },
+	{ ItemIndex = GET_ITEM(13, 318), ModelName = 'DarkRavenIcon', ObjectName = 'DarkRavenSkin2' },
+}
+
+--Models config
+DARK_SPIRIT_RENDER_MODEL = {}
+
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 318)] = {
+    --{ renderType = 0, layer = 0, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    --{ renderType = 3, layer = 1, effectLayer = 66,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    --{ renderType = 0, layer = 2, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    --{ renderType = 0, layer = 3, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    --{ renderType = 0, layer = 4, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+}
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 232)] = {
+    { renderType = 0, layer = 0, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 0, effectLayer = 4162,   lightR = 1.0, lightG = 0.0, lightB = 0.0, color3fv = 0, textureID = -1 },
+
+    { renderType = 0, layer = 1, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 1, effectLayer = 4162,   lightR = 1.0, lightG = 0.0, lightB = 0.0, color3fv = 0, textureID = -1 },
+							   
+    { renderType = 0, layer = 2, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 2, effectLayer = 4162,   lightR = 1.0, lightG = 0.0, lightB = 0.0, color3fv = 0, textureID = -1 },
+}
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 238)] = {
+    { renderType = 0, layer = 0, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 1, effectLayer = 2,      lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 2, effectLayer = 66,     lightR = 1.0, lightG = 1.0, lightB = 1.0, color3fv = 0, textureID = -1 },
+	
+	{ renderType = 0, layer = 0, effectLayer = 70,     lightR = 0.2, lightG = 0.2, lightB = 0.2, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 1, effectLayer = 70,     lightR = 0.2, lightG = 0.2, lightB = 0.2, color3fv = 0, textureID = -1 },
+    { renderType = 0, layer = 2, effectLayer = 70,     lightR = 0.59, lightG = 0.2753, lightB = 0.0, color3fv = 0, textureID = -1 },
+}	
+
+
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 244)] = { 
+    { renderType = 2, layer = 0, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 66,    lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 65600, lightR = 100, lightG = 100, lightB = 100, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 70,    lightR = 70,  lightG = 70,  lightB = 70,  color3fv = 3, textureID = -1 },
+}
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 254)] = { 
+    { renderType = 2, layer = 0, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 66,    lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 65600, lightR = 100, lightG = 100, lightB = 100, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 70,    lightR = 70,  lightG = 70,  lightB = 70,  color3fv = 3, textureID = -1 },
+}
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 256)] = { 
+    { renderType = 2, layer = 0, effectLayer = 66,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 2,      lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 2,      lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+}
+
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 267)] = { 
+    { renderType = 2, layer = 0, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 3, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+	
+	{ renderType = 2, layer = 0, effectLayer = 65600,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 65600,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 65600,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 3, effectLayer = 65600,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+
+}
+
+DARK_SPIRIT_RENDER_MODEL[GET_ITEM(13, 274)] = { 
+    { renderType = 2, layer = 0, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 1, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 2, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+    { renderType = 2, layer = 3, effectLayer = 2,     lightR = 255, lightG = 255, lightB = 255, color3fv = 3, textureID = -1 },
+
+}
+
+
+--Effects config
+DARK_SPIRIT_EFFECT = {}
+
+DARK_SPIRIT_EFFECT[GET_ITEM(13, 232)] = {
+    { Type = 1, EffectID = 32101, EffectLv = 12, Bone = 1, Size = 0.20, ColorR = 0.80, ColorG = 0.20, ColorB = 0.80, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32101, EffectLv = 12, Bone = 2, Size = 0.20, ColorR = 0.80, ColorG = 0.20, ColorB = 0.80, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32101, EffectLv = 12, Bone = 3, Size = 0.20, ColorR = 0.80, ColorG = 0.20, ColorB = 0.80, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32101, EffectLv = 12, Bone = 4, Size = 0.20, ColorR = 0.80, ColorG = 0.20, ColorB = 0.80, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32101, EffectLv = 12, Bone = 5, Size = 0.20, ColorR = 0.80, ColorG = 0.20, ColorB = 0.80, Black = 1, RandTime = 20 }, 
+
+}
+
+DARK_SPIRIT_EFFECT[GET_ITEM(13, 244)] = { ---- EAGLE
+
+{ Type = 1, EffectID = 32390, EffectLv = 0, Bone = 41, Size = 0.5, ColorR = 1.0, ColorG = 1.0, ColorB = 1.0, Black = 1, RandTime = 30 }, 	
+{ Type = 1, EffectID = 32049, EffectLv = 11, Bone = 41, Size = 0.6, ColorR = 0.0, ColorG =0.4, ColorB = 0.5, Black = 1, RandTime = 50 }, 	
+
+}
+
+DARK_SPIRIT_EFFECT[GET_ITEM(13, 254)] = {
+    { Type = 1, EffectID = 32355, EffectLv = 1, Bone = 1, Size = 0.20, ColorR = 0.00, ColorG = 0.65, ColorB = 0.1192, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32355, EffectLv = 1, Bone = 2, Size = 0.20, ColorR = 0.00, ColorG = 0.65, ColorB = 0.1192, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32355, EffectLv = 1, Bone = 3, Size = 0.20, ColorR = 0.00, ColorG = 0.65, ColorB = 0.1192, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32355, EffectLv = 1, Bone = 4, Size = 0.20, ColorR = 0.00, ColorG = 0.65, ColorB = 0.1192, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32355, EffectLv = 1, Bone = 5, Size = 0.20, ColorR = 0.00, ColorG = 0.65, ColorB = 0.1192, Black = 1, RandTime = 20 },  
+
+}
+
+DARK_SPIRIT_EFFECT[GET_ITEM(13, 267)] = {
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 1, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 2, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 3, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 4, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 20 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 5, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 20 }, 
+	
+	{ Type = 0, EffectID = 32003, EffectLv = 0, Bone = 1, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 2, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 3, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 4, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 5, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+}
+
+DARK_SPIRIT_EFFECT[GET_ITEM(13, 318)] = {
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 1, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 2, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 3, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 4, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 1, EffectID = 32049, EffectLv = 13, Bone = 5, Size = 0.20, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+	
+	{ Type = 0, EffectID = 32003, EffectLv = 0, Bone = 1, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 2, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 3, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 4, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+    { Type = 0, EffectID = 32003, EffectLv = 0, Bone = 5, Size = 0.25, ColorR = 1.00, ColorG = 0.6833,   ColorB = 0.00, Black = 1, RandTime = 100 }, 
+}
+
+
+
+function StartLoadDarkSpirit()
+    for i = 1, #DARK_SPIRIT_INFO do
+        SetDarkSpirit(DARK_SPIRIT_INFO[i].ItemIndex, DARK_SPIRIT_INFO[i].ModelName, DARK_SPIRIT_INFO[i].ObjectName)
+    end
+end
+
+function RenderModel(BMDStruct, ObjectStruct, ItemIndex)
+    local Bmd = BMD.new(BMDStruct)
+    local Obj = Object.new(ObjectStruct)
+	
+    local getRenderModel = DARK_SPIRIT_RENDER_MODEL[ItemIndex]
+
+    if getRenderModel ~= nil
+    then
+        for i = 1, #getRenderModel do
+			local render = getRenderModel[i]
+
+            Bmd:SetLight(render.lightR, render.lightG, render.lightB)
+
+            if render.color3fv == 1
+			then
+				Bmd:glColor3fv()
+			end
+			
+			if render.RenderType == 1
+			then
+				Bmd:RenderBody(render.layer, Obj:Alpha(), Obj:Mesh(), Obj:Light(), Obj:TexCoordU(), Obj:TexCoordV(), Obj:Hidden(), render.textureID)
+			else
+				Bmd:RenderMesh(render.layer, render.effectLayer, Obj:Alpha(), Obj:Mesh(), Obj:Light(), Obj:TexCoordU(), Obj:TexCoordV(), render.textureID)
+			end
+        end
+    else
+        Bmd:SetLight(1.0, 1.0, 1.0)
+
+        Bmd:RenderBody(2, Obj:Alpha(), Obj:Mesh(), Obj:Light(), Obj:TexCoordU(), Obj:TexCoordV(), Obj:Hidden(), -1)
+    end
+
+    local getEffectModel = DARK_SPIRIT_EFFECT[ItemIndex]
+	
+    if getEffectModel ~= nil
+    then
+        math.randomseed(os.time())
+
+        for i = 1, #getEffectModel do
+            local effect = getEffectModel[i]
+
+            local randValue = 100
+			
+			if effect.RandTime ~= 100
+			then
+				randValue = math.random(1, 100)
+			end
+			
+			if effect.RandTime >= randValue
+			then
+				if effect.Type == 0
+				then
+					CreateSprite(BMDStruct, effect.EffectID, effect.Bone, effect.Size, effect.ColorR, effect.ColorG, effect.ColorB, ObjectStruct)
+				else
+					CreateParticle(BMDStruct, effect.EffectID, effect.EffectLv, effect.Bone, effect.Size, effect.ColorR, effect.ColorG, effect.ColorB, ObjectStruct)
+				end
+			end
+        end
+    end
+
+    Bmd = nil
+    Obj = nil
+
+    --collectgarbage("stop")
+end
+
+StartLoadDarkSpirit()
